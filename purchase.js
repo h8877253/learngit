@@ -28,23 +28,7 @@ Purchase.timeout=60;
 Purchase.professionflag="";
 Purchase.custRisk="";
 Purchase.Interval1;
-Purchase.bankCards;
-Purchase.bankCode;
-Purchase.flag=true;
-//用于记录购买基金的编号
-Purchase.no;
-//用于记录提升额度的编号
-Purchase.no1;
-//用于记录汇款支付的编号
-Purchase.no2;
-Purchase.promoteChannelMap;
-Purchase.payType=2;
-Purchase.slide="up";
-Purchase.slide1="up";
-//add by wangpingfei 20180409 当前用于购买基金的channelId
-Purchase.currentPerchaseChannelId="";
-Purchase.suspendChannelIdList="";
-Purchase.promoteLimiteMap="";
+
 
 Purchase.initPage = function(fundCode,transactionsCode,fundName,fundType,applysumInit,currencyFundCode,sendTradeMsg,sendTradeMsgBuyLimit) {
 
